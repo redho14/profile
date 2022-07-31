@@ -1,0 +1,118 @@
+:root{
+    --mainColor : #FCF8E8;
+    --secondaryColor : #FFF89C;
+    --acsentColor : #D1512D;
+}
+
+body{
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'Lora';
+}
+
+/* navbar */
+
+.nav-link.active {
+    color: #D1512D !important;
+    font-weight: 700;
+}
+
+.nav-scroll{
+    background-color: #fff;
+    z-index: 10;
+    transition: 1s;
+}
+
+/* navbar end */
+
+/* hero */
+
+#home{
+    color: black;
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+#home h1{
+    font-size: 3rem;
+}
+
+#home h2{
+    font-weight: 300;
+}
+
+#home p{
+    font-weight: 300;
+}
+
+#home img{
+    height: 350px;
+    width: 350px;
+}
+
+.cv{
+    color: var(--acsentColor);
+    cursor: pointer;
+    font-weight: 1.1rem;
+}
+
+.social-icon svg{
+    margin-right: 1rem;
+    margin-bottom: 10px;
+}
+
+/* end hero */
+
+/* about */
+
+#about{
+    min-height: 300px;
+    width: 100%;
+    padding-top: 80px;
+    background-color: #ffff;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+#about h1{
+    font-size: 3rem;
+}
+
+hr{
+    width: 65%;
+    height: 10px;
+    color:  black;
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+/* end about */
+
+/* skill */
+
+#skill{
+    min-height: 600px;
+    width: 100%;
+    color: #fff;
+}
+
+#skill img{
+    width: 100px;
+}
+
+#skill .card{
+    background-color: var(--acsentColor);
+    height: 340px;
+}
+
+#skill .card :hover{
+    background-color: #81CACF;
+}
+
+.skill-konten{
+    margin-top: 50px;
+}
+
+/* end skill */
+
+
